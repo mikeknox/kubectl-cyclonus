@@ -1,7 +1,7 @@
 project_name: kubectl-cyclonus
 release:
   github:
-    owner: mattfenwick
+    owner: mikeknox
     name: kubectl-cyclonus
 builds:
   - id: kubectl-cyclonus
@@ -12,6 +12,7 @@ builds:
     goarch:
     - amd64
     - "386"
+    - arm64
     env:
       - CGO_ENABLED=0
       - GO111MODULE=on
