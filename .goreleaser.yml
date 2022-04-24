@@ -3,6 +3,7 @@ release:
   github:
     owner: mikeknox
     name: kubectl-cyclonus
+  prerelease: auto
 builds:
   - id: kubectl-cyclonus
     goos:
