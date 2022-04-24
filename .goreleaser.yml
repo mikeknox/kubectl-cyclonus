@@ -1,7 +1,7 @@
 project_name: kubectl-cyclonus
 release:
   github:
-    owner: mikeknox
+    owner: mattfenwick
     name: kubectl-cyclonus
   prerelease: auto
 builds:
